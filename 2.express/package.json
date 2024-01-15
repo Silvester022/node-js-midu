@@ -1,0 +1,21 @@
+{
+  "name": "2.express",
+  "version": "1.0.0",
+  "main": "1.http.js",
+  "scripts": {
+    "dev:1": "nodemon 1.http.js",
+    "dev:2": "nodemon 2.routing.js",
+    "dev:3": "node --watch 3.express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
